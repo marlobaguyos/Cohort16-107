@@ -20,6 +20,11 @@ namespace intro
             decimal price = 29.99m;
             bool found = false;
 
+            System.Console.WriteLine(name);
+            System.Console.WriteLine(distance);
+            System.Console.WriteLine(price);
+            System.Console.WriteLine(found);
+
             //conditional blocks
             if(age < 100)
             {
@@ -37,7 +42,7 @@ namespace intro
             {
                 System.Console.WriteLine("");
             }
-            
+
             return 1;
         }
     }
