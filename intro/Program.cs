@@ -35,9 +35,9 @@ namespace intro
             //loops
             for(int i=0; i < 10; i++)
             {
-                System.Console.WriteLine("")
+                System.Console.WriteLine("");
             }
-
+            
             return 1;
         }
     }
