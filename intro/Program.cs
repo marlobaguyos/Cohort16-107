@@ -7,10 +7,12 @@ namespace intro
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Program p = new Program();
+            p.Variables();
 
         }
         //access_level return_type method_name (params)
-        public int Variable()
+        public int Variables()
         {
             string name = "Sergio";
             int age = 34;
@@ -23,7 +25,17 @@ namespace intro
             {
                 Console.WriteLine("Don't worry, you are still young");
                 //cw
-                Console.WriteLine("askdljklasd")
+                Console.WriteLine("askdljklasd");
+            }
+            else
+            {
+                System.Console.WriteLine("Ouch, you are getting old");
+            }
+
+            //loops
+            for(int i=0; i < 10; i++)
+            {
+                System.Console.WriteLine("")
             }
 
             return 1;
