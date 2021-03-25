@@ -53,6 +53,18 @@ namespace intro
             names[0] = "Nick";
             names[1] = "Jay";
             names[3] = "Eric";
+
+            // lists
+            List<string> colors = new List<string>();
+            colors.Add("Red");
+            colors.add("Green");
+            colors.add("Dark Yellow");
+            colors.add("blue");
+            colors.add("puRpLE");
+
+            System.Console.WriteLine(colors);
+
+
         }
     }
 }
