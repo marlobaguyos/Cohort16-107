@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\intro\\intro.csproj": {}
+    "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\INTRO\\intro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\intro\\intro.csproj": {
+    "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\INTRO\\intro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\intro\\intro.csproj",
+        "projectUniqueName": "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\INTRO\\intro.csproj",
         "projectName": "intro",
-        "projectPath": "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\intro\\intro.csproj",
+        "projectPath": "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\INTRO\\intro.csproj",
         "packagesPath": "C:\\Users\\marlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\intro\\obj\\",
+        "outputPath": "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\INTRO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marlo\\AppData\\Roaming\\NuGet\\NuGet.Config"

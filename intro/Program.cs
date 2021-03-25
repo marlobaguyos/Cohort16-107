@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace intro
 {
@@ -9,6 +10,7 @@ namespace intro
             Console.WriteLine("Hello World!");
             Program p = new Program();
             p.Variables();
+            p.TestCollections();
 
         }
         //access_level return_type method_name (params)
@@ -57,14 +59,19 @@ namespace intro
             // lists
             List<string> colors = new List<string>();
             colors.Add("Red");
-            colors.add("Green");
-            colors.add("Dark Yellow");
-            colors.add("blue");
-            colors.add("puRpLE");
+            colors.Add("Green");
+            colors.Add("Dark Yellow");
+            colors.Add("blue");
+            colors.Add("puRpLE");
+            colors.Add("puRpLE");
 
             System.Console.WriteLine(colors);
 
-
+            for(int i=0; i<colors.Count; i++)
+            {
+                string color = colors[i];
+                System.Console.WriteLine(color);
+            }
         }
     }
 }
