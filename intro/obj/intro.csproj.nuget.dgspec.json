@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\INTRO\\intro.csproj": {}
+    "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\intro\\intro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\INTRO\\intro.csproj": {
+    "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\intro\\intro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\INTRO\\intro.csproj",
+        "projectUniqueName": "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\intro\\intro.csproj",
         "projectName": "intro",
-        "projectPath": "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\INTRO\\intro.csproj",
+        "projectPath": "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\intro\\intro.csproj",
         "packagesPath": "C:\\Users\\marlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\INTRO\\obj\\",
+        "outputPath": "C:\\Users\\marlo\\Documents\\GitHub\\Cohort16-107\\intro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marlo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
