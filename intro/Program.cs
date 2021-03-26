@@ -63,7 +63,7 @@ namespace intro
             colors.Add("Dark Yellow");
             colors.Add("blue");
             colors.Add("puRpLE");
-            colors.Add("puRpLE");
+            colors.Add("puRpdfafsdfasdfasdLE");
 
             System.Console.WriteLine(colors);
 
