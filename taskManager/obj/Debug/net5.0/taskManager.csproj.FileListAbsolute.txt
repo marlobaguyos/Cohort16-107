@@ -38,3 +38,5 @@ C:\Users\marlo\Documents\GitHub\Cohort16-107\taskManager\obj\Debug\net5.0\ref\ta
 C:\Users\marlo\Documents\GitHub\Cohort16-107\taskManager\obj\Debug\net5.0\taskManager.pdb
 C:\Users\marlo\Documents\GitHub\Cohort16-107\taskManager\obj\Debug\net5.0\taskManager.genruntimeconfig.cache
 C:\Users\marlo\Documents\GitHub\Cohort16-107\taskManager\obj\Debug\net5.0\taskManager.csproj.CopyComplete
+C:\Users\marlo\Documents\GitHub\Cohort16-107\taskManager\obj\Debug\net5.0\Razor\Views\Home\about.cshtml.g.cs
+C:\Users\marlo\Documents\GitHub\Cohort16-107\taskManager\obj\Debug\net5.0\Razor\Views\Home\Task.cshtml.g.cs

@@ -28,6 +28,21 @@ namespace taskManager.Controllers
             return View();
         }
 
+        public IActionResult Test()
+        {
+            return Content("Hello Marlo");
+        }
+
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Tasks()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
