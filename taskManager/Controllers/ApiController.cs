@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using taskManager.Models;
 
 namespace taskManager.Controllers
 {
@@ -20,9 +21,14 @@ namespace taskManager.Controllers
             return Json(null);
         }
         [HttpPost]
-        public IActionResult PostTask()
+        public IActionResult PostTask([FromBody] Task theTask)
         {
-            return Json(null);
+            // send theTask to database
+
+            // assign an id to the
+            theTask.Id = 1;
+            //return the object 
+            return Json(theTask);
         }
     }
 }
