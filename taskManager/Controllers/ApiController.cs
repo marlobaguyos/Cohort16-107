@@ -5,9 +5,11 @@ namespace taskManager.Controllers
 {
     public class Apicontroller : Controller
     {
-        public Apicontroller()
+        private DataContext dbContext;
+        public Apicontroller(DataContext db)
         {
             //I'm the constructor
+            dbContext = db;
         }
         [HttpGet]
         public IActionResult Test()
@@ -24,9 +26,8 @@ namespace taskManager.Controllers
         public IActionResult PostTask([FromBody] Task theTask)
         {
             // send theTask to database
-
-            // assign an id to the
-            theTask.Id = 1;
+            dbContext.Tasks.Add(theTask);
+            dbContext.SaveChanges();
             //return the object 
             return Json(theTask);
         }
