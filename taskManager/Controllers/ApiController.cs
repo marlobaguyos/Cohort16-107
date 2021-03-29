@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using taskManager.Models;
 
+using System.Linq;
+using System.Collections.Generic;
+
 namespace taskManager.Controllers
 {
     public class Apicontroller : Controller
@@ -14,13 +17,16 @@ namespace taskManager.Controllers
         [HttpGet]
         public IActionResult Test()
         {
-            string name = "Sergio";
+            string name = "Marlo";
             return Json(name);
         }
         [HttpGet]
         public IActionResult GetTask()
         {
-            return Json(null);
+            //read data base
+            // var tasks = dbContext.Tasks.ToList();
+            var tasks = dbContext.Tasks.ToList();
+            return Json(tasks);
         }
         [HttpPost]
         public IActionResult PostTask([FromBody] Task theTask)
