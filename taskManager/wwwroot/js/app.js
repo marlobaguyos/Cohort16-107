@@ -1,7 +1,7 @@
 task = [];
 var isItImportant = false;
 var isDetailsVisible = true;
-var serverUrl = "https://fsdi.azurewebsites.net/api";
+var serverUrl = "http://fsdi.azurewebsites.net/api";
 
 function toggleDetailVisibility() {
     if (isDetailsVisible) {
