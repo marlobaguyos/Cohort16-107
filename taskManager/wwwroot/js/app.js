@@ -70,8 +70,8 @@ function displayTask(task) {
 
     var syntax = `<div id="hideList">
                     <div class="d-flex bd-highlight testBorder" style="background-color:${task.alertText};">
-                        <div class="p-2 flex-fill bd-highlight">
-                        <i class="far fa-star task-star task-section-sm"></i>
+                            <div class="p-2 flex-fill bd-highlight">
+                            <i class="far fa-star task-star task-section-sm"></i>
                         </div>
 
                         <div class="p-2 flex-fill bd-highlight">
