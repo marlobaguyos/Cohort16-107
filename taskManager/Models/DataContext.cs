@@ -7,7 +7,7 @@ namespace taskManager.Models
 
         /*
             Everytime you change something on the models, run these:
-            -  dotnet ef migrations add <name>
+            - dotnet ef migrations add <name>
             - dotnet ef database update
         */
         public DataContext(DbContextOptions<DataContext> options) : base(options)
